@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang=ja>
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS Grid</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div id="show">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </div>
+
+  <script>
+  'use strict';
+
+  const show = document.getElementById('show');
+
+  show.addEventListener('click', function() {
+    if (show.className === 'on') {
+      show.className = '';
+    } else {
+      show.className = 'on';
+    }
+  });
+
+  </script>
+</body>
+
+</html>
