@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang ='ja'>
+<head>
+<meta charset="utf-8">
+<title>JavaScript Basics</title>
+</head>
+<body>
+  <!-- <input type="radio" name="color" value="red">赤
+  <input type="radio" name="color" value="blue">青
+  <input type="radio" name="color" value="yellow">黄
+  <button>Add</button> -->
+
+  <div id="box" style="width:100px;height:100px;background:red;"></div>
+
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script>
+    $(function() {
+      $('#box').fadeOut(800, function() {
+        alert("gone!");
+      });
+      
+
+    });
+  </script>
+</body>
+</html>
